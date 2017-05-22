@@ -23,10 +23,10 @@ public class Classe {
 		int linhas = Integer.parseInt(JOptionPane.showInputDialog("Informe a quantidade de linhas."));
 
 		// controle das linhas
-		for (int aux = linhas; aux >= 0; aux--) {
+		for (int aux = linhas; aux > 0; aux--) {
 
 			// controle das colunas
-			for (int aux2 = linhas; aux2 >= aux; aux2--) {
+			for (int aux2 = aux; aux2 > 0; aux2--) {
 
 				// se o numero da linha for menor que 10, adiciona o 0 na a
 				// esquerda
